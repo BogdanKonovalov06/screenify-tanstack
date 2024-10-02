@@ -1,5 +1,5 @@
 import styles from './page.module.css';
-import { getCollections } from './api/movies';
+import { getCollections } from '../../api/movies';
 
 import { Movie } from '@/types/Movie';
 import { MovieComponent } from '@/components/Movie';
